@@ -7,8 +7,8 @@ Works, articles and books for [Diglot service](https://github.com/pvolyntsev/dig
 
 1. Зарегистрироваться на http://diglot.copist.ru/
 2. Включить в настройках учётной записи http://diglot.copist.ru/profile/integration интеграцию со своей учётной записью на github.com
-3. Сделать новый репозиторий, в корне которого разместить индексный файл `index.ini`
-    Содержимое файла `index.ini`
+3. Сделать новый репозиторий, в корне которого разместить индексный файл `diglot.ini`
+    Содержимое файла `diglot.ini`
     ```
     [branch]
     published
@@ -33,5 +33,5 @@ Works, articles and books for [Diglot service](https://github.com/pvolyntsev/dig
     author=Иван Степанов
     home=http://ivan.stepanov.ru/
     ```
-5. Создать ветку `published` и "подтягивать" туда изменения статей. Сервис [Diglot service](https://github.com/pvolyntsev/diglot) будет брать изменения только из этой ветки. Название ветки может быть изменено на другое; имя ветки надо указать в индексном файле `index.ini` в секции `[branch]`
+5. Создать ветку `published` и "подтягивать" туда изменения статей. Сервис [Diglot service](https://github.com/pvolyntsev/diglot) будет брать изменения только из этой ветки. Название ветки может быть изменено на другое; имя ветки надо указать в индексном файле `diglot.ini` в секции `[branch]`
 
